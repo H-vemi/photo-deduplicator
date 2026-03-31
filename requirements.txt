@@ -1,0 +1,17 @@
+# AI 智能照片去重工具依赖
+# 安装命令: pip install -r requirements.txt
+
+# 核心依赖：图片处理 + 感知哈希
+Pillow>=10.0.0
+imagehash>=4.3.1
+
+# 可选依赖：GUI 界面
+# tkinter (Python 内置)
+
+# 可选依赖：Web 界面
+flask>=2.0.0
+werkzeug>=2.0.0
+
+# 测试依赖
+pytest>=7.0.0
+pytest-cov>=4.0.0
